@@ -11,4 +11,5 @@ def main():
     roster.append(Student("lavender", "c"))
     roster.append(Student("pansy", "b"))
 
-    print(math_utils(roster))
+    average = math_utils(roster)
+    print(average)
