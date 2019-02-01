@@ -35,10 +35,10 @@ print(grade)
 print("Practice dictionary finished.")
 
 print("Practice Conditionals:")
-num = input("Enter a number: ")
-if int(num) > 0:
+num1 = int(input("Enter a number: "))
+if num1 > 0:
     print("The number is positive.")
-elif int(num) < 0:
+elif num1 < 0:
     print("The number is negative.")
 else:
     print("The number is zero.")
@@ -51,15 +51,16 @@ for i, j in enumerate(range(3, 10)):
 print("Practice loops finished.\nPractice functions:")
 
 
-def is_odd(num):
-    if (num % 2) == 0:
+def is_odd(num2):
+    if (num2 % 2) == 0:
         return False
     else:
         return True
 
 
-practice = input("Enter positive odd number: ")
-print(is_odd(int(practice)))
+practice = int(input("Enter positive odd number: "))
+
+print(is_odd(practice))
 print("Practice functions finished.")
 
 
