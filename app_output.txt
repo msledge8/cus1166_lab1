@@ -1,0 +1,11 @@
+Hermione got a 100.
+Harry got a 88.
+Ron got a 78.
+Luna got a 90.
+Neville got a 81.
+Draco got a 91.
+Dean got a 80.
+Lavender got a 78.
+Crabbe got a 60.
+Goyle got a 61.
+The average is: 80.7. The average letter grade was B.
