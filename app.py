@@ -1,15 +1,26 @@
-def main():
+from mymodules.models import Student
+from mymodules.math_utils import average_grade
 
+def __main__():
     roster = []
-    roster.append(Student("hermione", "a"))
-    roster.append(Student("harry", "b"))
-    roster.append(Student("ron", "c"))
-    roster.append(Student("luna", "a"))
-    roster.append(Student("nevile", "b"))
-    roster.append(Student("draco", "a"))
-    roster.append(Student("dean", "c"))
-    roster.append(Student("lavender", "c"))
-    roster.append(Student("pansy", "b"))
+    roster.append(Student("Hermione", "100"))
+    roster.append(Student("Harry", "88"))
+    roster.append(Student("Ron", "78"))
+    roster.append(Student("Luna", "90"))
+    roster.append(Student("Neville", "81"))
+    roster.append(Student("Draco", "91"))
+    roster.append(Student("Dean", "80"))
+    roster.append(Student("Lavender", "78"))
+    roster.append(Student("Crabbe", "60"))
+    roster.append(Student("Goyle", "61"))
 
-    average = math_utils(roster)
-    print(average)
+    for student in roster:
+        student.print_student_info()
+
+    average_grade(roster)
+
+__main__()
+
+
+
+
